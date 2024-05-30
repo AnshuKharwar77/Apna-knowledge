@@ -1,0 +1,55 @@
+/* h1 {
+  color : rgb(13, 154, 201);
+}
+h2 {
+  color :rgb(50, 255, 8);
+
+button {
+  color :blue;
+  background-color : red
+} */
+h1 {
+  max-width: 10000px;
+  max-height: 100px;
+  padding: 20px;
+  margin: 20px auto;
+  
+  color : rgb(240, 241, 241);
+  background-color: black;
+  box-shadow: 10px 20px 100px rgb(0, 0, 246);
+  text-align: left;
+  border-style: solid;
+  border-color: rgb(243, 241, 241);
+  border-radius: 20px;
+  border-width: 6px;
+  border-top-color: rgb(0, 255, 128);
+  border-left-color: blue;
+  border-right-color: blue;
+  border-top-style: dotted;
+  outline: auto;
+  outline-color: rgb(10,20,250);
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+
+
+
+  
+}
+button {
+  color : blue;
+  background-color: aliceblue;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f20b0b;
+  border-radius: 10px;
+  7box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+fieldset {
+  border-radius: 200px;
+  /* border-bottom: 20px; */
+  border-color: #ce2727;
+}
