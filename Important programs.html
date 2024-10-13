@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepgyan</title>
+    <link rel="stylesheet" value="css/text" href="style.css">
+    <script src="console.js"></script>
+    <link rel="icon" 
+    type="image/jpg" 
+    href="C:\Users\amita\OneDrive\Pictures\Saved Pictures\WhatsApp Image 2024-09-20 at 16.16.50_f9af23bf.jpg">
+    <!-- <link rel="icon" 
+    type="image/jpg" 
+    href="C:\Users\amita\OneDrive\Pictures\Saved Pictures\My Logoo.jpg"> -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <h1>Deepgyan</h1>
+                <li><a href="a">Home</a></li>
+                <li><a href="a">About</a></li>
+                <li><a href="a">Services</a></li>
+                <li><a href="a">contact</a></li>
+                <input type="search" id="search" placeholder="search...">
+            </ul>
+        </nav>
+    </header>
+
+    <!-- start programs -->
+
+<h2 style="font-style: normal; font-size: xx-large;">C++ program to add two integer numbers</h2>
+
+<span style="font-size: x-large; font-style: italic;">This is a very basic C++ program; here we are reading two integer numbers through the use and calculating sum of the number. Firstly, we are declaring two integer numbers num1 and num2, then we will take input from the user using cin. Then we will calculate sum and store into variable add, and then display the value of add.</span>
+<br>
+<br> 
+<p><b>program to add two numbers</b></p>
+<br>
+<div>
+<nav>
+
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gaping statement -->
+
+    <code style="color: rgb(99, 131, 67);">#include < iostream > </code>
+    <br>
+    <code style="color: rgb(128, 42, 165);"> using namespace</code>
+    <code style="color: blue;">std;</code>
+    <br>      
+    <code>int</code>
+    <code style="color: blue;">main()</code>
+    <br>
+    <code>{</code>
+    <br>
+    <code style="margin-left: 20px;">int num1;</code>
+    <br>
+    <code style="margin-left: 20px;">int num2;</code>
+    <br>
+    <code style="margin-left: 20px;">int add;</code>
+    <br>
+    <br>
+    <code style="margin-left: 20px;">cout<<</code>
+    <code style="color: blue;">"Enter first number: "</code>
+    <code>;</code>
+    <br>
+    <code style="margin-left: 20px;">cin>>num1;</code>
+    <br>
+    <code style="margin-left: 20px;">cout<<</code>
+    <code style="color: blue;">"Enter second number: "</code>
+    <code>;</code>
+    <br>
+    <code style="margin-left: 20px;">cin>>num2;</code>
+    <br>
+    <br>
+    <code style="margin-left: 20px;">add=num1+num2;</code>
+    <br>
+    <code style="margin-left: 20px;">cout<<</code>
+    <code style="color: blue;">"Addition is: "</code>
+    <code><< add<< endl;</code>
+    <br>
+    <code style="margin-left: 20px; color: rgb(128, 42, 165);">return</code>
+    <code>0;</code>
+    <br>
+    <code>}</code>
+</nav>
+</div>
+<br>
+<p><b>Output</b></p>
+<h5>
+    <p>
+    <code>Enter first number: 100</code>
+    <br>
+    <code>Enter second number: 200</code>
+    <br>
+    <code>Addition is: 300 </code>
+    </p>
+</h5>
+<!-- <img src="C:\Users\amita\OneDrive\Pictures\Screenshots\Screenshot 2024-06-26 230827.png" alt="water and mountain view">
+<img src="C:\Users\amita\OneDrive\Pictures\Screenshots\Screenshot 2024-07-03 235710.png" alt="mountain view">
+<img src="C:\Users\amita\OneDrive\Pictures\Screenshots\Screenshot 2024-07-02 232710.png" alt="mountain view"> -->
+<!-- <br>
+<br>
+<textarea slot="text" placeholder="This area is booekd for a important tasks"></textarea> -->
+<br>
+<br>
+
+<div style="margin-top: 0; width: 1200px; position: absolute; right: 0;"></div>
+<h2 style="font-style: normal; margin-top: -30px;">C++ program to add two integer numbers using function</h2>
+
+<span style="font-size: x-large; font-style: italic;">In this program we are doing the same but using a user defined function, this program will take two integer numbers are calculate the sum/addition of them using a user defined function.</span>
+<span style="font-size: x-large; font-style: italic;">The function addition is used to calculate addition of the numbers, in this program we will pass the entered integer numbers and function will return the addition of the numbers.</span>
+    <br> 
+    <p><b>program to add two numbers</b></p>
+    <br>
+    <div>
+    <nav>
+        <code style="color: rgb(99, 131, 67);">#include < iostream ></code>
+        <br>
+        <code style="color: rgb(128, 42, 165);">using namespace</code>
+        <code style="color: blue;">std</code> 
+        <code>;</code>
+        <br>
+        <br>
+        <code>int addition(int a,int b);</code>
+        <br>
+        <code>int </code>
+        <code style="color: blue;">main()</code>
+        <br>
+        <code>{</code>
+        <br>
+        <code style="margin-left: 20px;">int num1;</code>
+        <br>
+        <code style="margin-left: 20px;">int num2;</code>
+        <br>    
+        <code style="margin-left: 20px;">int add;</code>
+        <br>
+        <code style="margin-left: 20px;">cout<<</code>
+        <code style="color: blue;">"Enter first number:"</code> 
+        <code>;</code>
+        <br>
+        <code style="margin-left: 20px;">cin>>num1;</code>
+        <br>
+        <code style="margin-left: 20px;">cout<<</code>
+        <code style="color: blue;">"Enter second number:"</code>
+        <code>;</code>
+        <br>
+        <code style="margin-left: 20px;">cin>>num2;</code>
+        <br>
+        <code style="margin-left: 20px;">cout<<</code>
+        <code style="color: blue;">"Addition is:"</code> 
+        <code><< add << endl;</code>
+        <br>
+        <code style="margin-left: 20px;">add=addition(num1,num2);</code>
+        <br>
+        <code style="margin-left: 20px; color: rgb(128, 42, 165);"> return 0;</code>
+        <br>
+        <code>}</code>
+        <br>
+        <code>int addition(int a,int b)</code>
+        <br>
+        <code>{</code>
+        <br>
+        <code style="margin-left: 20px; color: rgb(128, 42, 165);">return</code> 
+        <code>(a+b);</code>
+        <br>
+        <code>}</code>
+        <br>
+
+    </nav>
+    </div>
+    <br>
+    <p><b>Output</b></p>
+    <h5>
+        <p>
+        <code>Enter first number: 100</code>
+        <br>
+        <code>Enter second number: 200</code>
+        <br>
+        <code>Addition is: 300 </code>
+        </p>
+    </h5>
+    <br>
+    <br>
+    <h2 style="font-style: normal; margin-top: -30px;">C++ program to add two integer numbers using function</h2>
