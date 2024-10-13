@@ -1,55 +1,91 @@
-/* h1 {
-  color : rgb(13, 154, 201);
+body {
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
 }
-h2 {
-  color :rgb(50, 255, 8);
-
-button {
-  color :blue;
-  background-color : red
-} */
+.navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+    font-size: medium;
+}
 h1 {
-  max-width: 10000px;
-  max-height: 100px;
-  padding: 20px;
-  margin: 20px auto;
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 0px; 
+}
+/* img {
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+}
+textarea {
+    width: 350px;
+    height: 100px;
+    margin: 5px;
+} */
+p {
+    color: rgb(250, 3, 3);
+    font-size: large;
+    padding: 5px;
+    margin: 0;
+
+}
+div {
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0;
+}
+h5 {
+    color: white;
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+/* Style the search box */
+#mySearch {
+    width: 140px;
+    height: 20px;
+  }
   
-  color : rgb(240, 241, 241);
-  background-color: black;
-  box-shadow: 10px 20px 100px rgb(0, 0, 246);
-  text-align: left;
-  border-style: solid;
-  border-color: rgb(243, 241, 241);
-  border-radius: 20px;
-  border-width: 6px;
-  border-top-color: rgb(0, 255, 128);
-  border-left-color: blue;
-  border-right-color: blue;
-  border-top-style: dotted;
-  outline: auto;
-  outline-color: rgb(10,20,250);
-  border-top-right-radius: 100px;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-
-
-
+  /* Style the navigation menu */
+  #myMenu {
+    list-style-type: none;
+   
+  }
   
-}
-button {
-  color : blue;
-  background-color: aliceblue;
-}
-.container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f20b0b;
-  border-radius: 10px;
-  7box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-fieldset {
-  border-radius: 200px;
-  /* border-bottom: 20px; */
-  border-color: #ce2727;
+  /* Style the navigation links */
+ #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+  
+ol {
+    font-size: 20px;
 }
